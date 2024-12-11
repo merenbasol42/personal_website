@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+
+    .skills-grid, .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--primary-color);
+        padding: 20px;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .header-container {
+        position: relative;
+    }
+
+    section {
+        margin-bottom: 80px;
+    }
+
+    .theme-switch-wrapper {
+        display: none;
+    }
+}

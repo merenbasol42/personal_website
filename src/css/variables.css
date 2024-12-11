@@ -1,0 +1,19 @@
+:root {
+    /* Light Theme Variables */
+    --primary-color-light: #2c3e50;
+    --secondary-color-light: #3498db;
+    --accent-color-light: #2980b9;
+    --text-color-light: #333;
+    --background-color-light: #f4f7f6;
+    --card-background-light: #ffffff;
+    --heading-color-light: #2c3e50;
+
+    /* Dark Theme Variables */
+    --primary-color-dark: #1a1a2e;
+    --secondary-color-dark: #4b6587;
+    --accent-color-dark: #5d6d7e;
+    --text-color-dark: #e0e0e0;
+    --background-color-dark: #16213e;
+    --card-background-dark: #0f3460;
+    --heading-color-dark: #f4f4f4;
+}
